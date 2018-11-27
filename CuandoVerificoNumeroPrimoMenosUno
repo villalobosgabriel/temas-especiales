@@ -1,0 +1,22 @@
+namespace NumerosPrimos
+{
+    [TestClass]
+    public class CuandoVerificoNumeroPrimoMenosUno
+    {
+
+        [TestMethod]
+        public void SiEsMenosUnoRetornoFalso()
+        {
+            // Arreglar
+            var porVerificar = -1;
+            var verificador = new VerificadorNumeroPrimoMenosUno();
+            
+            //Actuar
+            var resultado = verificador.EsPrimoMenosUno(porVerificar);
+
+            //Asegurar
+            Assert.IsFalse(resultado);
+
+        }
+    }
+}
