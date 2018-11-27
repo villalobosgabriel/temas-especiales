@@ -1,0 +1,10 @@
+namespace NumerosPrimos
+{
+    public class VerificadorNumeroPrimoMenosUno
+    {
+        public bool EsPrimoMenosUno(int porVerificar)
+        {
+            return false;
+        }
+    }
+}
